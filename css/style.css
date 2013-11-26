@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+}
+
+#stage {
+	margin-top: 50px;
+	margin-bottom: 15px;
+	text-align: center;
+	
+}
+
+#capture {
+	height: 200px;
+}
+#movie {
+	
+	height: 200px;
+	background-color: gray;
+	
+}
+
+#ui {
+	margin: 10px;
+	text-align: center;
+}
+
+#filmstrip {
+	height: 320px;
+	overflow-y: auto;
+	background-color: #fafafa;
+}
+
+.film {
+	float: left;
+	height: 100px;
+	padding: 0;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.filterlist {
+	width:150px;
+	float:left;
+}
