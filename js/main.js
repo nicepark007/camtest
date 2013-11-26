@@ -76,7 +76,7 @@ function rotate() {
 };
 
 function mask() {
-	movie.style['-webkit-mask-image'] = 'url(../webcamtest/img/mask.png)';
+	movie.style['-webkit-mask-image'] = 'url(../camtest/img/mask.png)';
 	var x = 133 + mrange.value*17;
 	var y = 100 + mrange.value*12;
 	movie.style['-webkit-mask-position'] = 'center';
