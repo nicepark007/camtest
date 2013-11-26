@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<script type="text/javascript" src="./js/main.js"></script>
+	</head>
+	<body>
+		<div id="stage">
+		  <video id="capture" autoplay></video>
+		  <canvas id="movie" autoplay></canvas>
+		</div>
+		<div id="ui">
+		  <input type="button" id="bt-capture" value="capture">
+		  <input type="button" id="bt-clear" value="clear">
+		  <input type="checkbox" id="bt-play">play
+		  <input type="checkbox" id="bt-random">random
+		</div>
+	    <div style="position:relative; height:100px; width:450px; left:50%; margin-left:-225px">
+		  	<div class="filterlist">
+				blur<br/>
+				<input id="brange" type="range" min="0" max="10" step="1" value="0" >
+			</div>
+			<div class="filterlist">
+				masksize<br/>
+				<input id="mrange" type="range" min="0" max="10" step="1" value="0" >
+			</div>
+			<div class="filterlist">
+				rotate<br/>
+				<input id="rrange" type="range" min="0" max="10" step="1" value="0" >
+			</div>
+		  </div>
+		
+		<br/>
+		<div id="filmstrip"></div>
+	</body>
+</html>
